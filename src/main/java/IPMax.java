@@ -14,7 +14,7 @@ public class IPMax {
     }
     Configuration conf = new Configuration();
     Job job = new Job(conf);
-    job.setJarByClass(AccessLog.class);
+    job.setJarByClass(IPMax.class);
     job.setJobName("IPMax");
 
     FileInputFormat.addInputPath(job, new Path(args[0]));

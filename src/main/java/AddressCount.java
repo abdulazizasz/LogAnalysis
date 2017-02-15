@@ -16,7 +16,7 @@ public class AddressCount {
     conf.set("address", args[2]);
 
     Job job = new Job(conf);
-    job.setJarByClass(AccessLog.class);
+    job.setJarByClass(AddressCount.class);
     job.setJobName("AddressCount");
 
     FileInputFormat.addInputPath(job, new Path(args[0]));

@@ -1,3 +1,12 @@
-/Users/abdulaziz/Desktop/AccessLog/src/main/java/AccessLogMapper.java
-/Users/abdulaziz/Desktop/AccessLog/src/main/java/AccessLog.java
-/Users/abdulaziz/Desktop/AccessLog/src/main/java/AccessLogReducer.java
+/Users/PedroOzoBustamante/Desktop/LogAnalysis/src/main/java/IPMax.java
+/Users/PedroOzoBustamante/Desktop/LogAnalysis/src/main/java/IPMaxReducer.java
+/Users/PedroOzoBustamante/Desktop/LogAnalysis/src/main/java/AddressCountReducer.java
+/Users/PedroOzoBustamante/Desktop/LogAnalysis/src/main/java/AddressCountMapper.java
+/Users/PedroOzoBustamante/Desktop/LogAnalysis/src/main/java/AddressMax.java
+/Users/PedroOzoBustamante/Desktop/LogAnalysis/src/main/java/AddressMaxMapper.java
+/Users/PedroOzoBustamante/Desktop/LogAnalysis/src/main/java/IPCountMapper.java
+/Users/PedroOzoBustamante/Desktop/LogAnalysis/src/main/java/IPCountReducer.java
+/Users/PedroOzoBustamante/Desktop/LogAnalysis/src/main/java/AddressCount.java
+/Users/PedroOzoBustamante/Desktop/LogAnalysis/src/main/java/AddressMaxReducer.java
+/Users/PedroOzoBustamante/Desktop/LogAnalysis/src/main/java/IPCount.java
+/Users/PedroOzoBustamante/Desktop/LogAnalysis/src/main/java/IPMaxMapper.java

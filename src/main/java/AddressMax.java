@@ -16,7 +16,7 @@ public class AddressMax {
 
 
     Job job = new Job(conf);
-    job.setJarByClass(AccessLog.class);
+    job.setJarByClass(AddressMax.class);
     job.setJobName("AddressMax");
 
     FileInputFormat.addInputPath(job, new Path(args[0]));

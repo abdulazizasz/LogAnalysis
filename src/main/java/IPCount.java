@@ -16,7 +16,7 @@ public class IPCount {
     conf.set("IP", args[2]);
 
     Job job = new Job(conf);
-    job.setJarByClass(AccessLog.class);
+    job.setJarByClass(IPCount.class);
     job.setJobName("IPCount");
 
     FileInputFormat.addInputPath(job, new Path(args[0]));

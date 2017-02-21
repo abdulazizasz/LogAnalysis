@@ -15,9 +15,12 @@ public class AddressMaxMapper
       throws IOException, InterruptedException {
     
         String line = value.toString();
-        line=line.split("GET ")[1];
+        // line=line.split("GET ")[1];
   
-        context.write(new Text(line.split(" ")[0]), new IntWritable(1));
+        // context.write(new Text(line.split(" ")[0]), new IntWritable(1));
+
+        context.write(new Text(line.split("\\s+")[6]), new IntWritable(1));
+
     
   }
 }

@@ -4,10 +4,10 @@ Using Hadoop to analyze the access_log.
 
 1- mvn clean install
 
-2. hadoop jar LogAnalysisFunctions.jar AddressCount short.txt output /favicon.ico
+2. hadoop jar LogAnalysisFunctions.jar AddressCount access_log.txt output /assets/img/home-logo.png
 
-3. hadoop jar LogAnalysisFunctions.jar AddressMax short.txt output1
+3. hadoop jar LogAnalysisFunctions.jar IPCount access_log.txt output2 10.153.239.5
 
-4. hadoop jar LogAnalysisFunctions.jar IPCount short.txt output2 10.223.157.186
+3. hadoop jar LogAnalysisFunctions.jar AddressMax access_log.txt output1
 
-5. hadoop jar LogAnalysisFunctions.jar IPMax short.txt output3  
+4. hadoop jar LogAnalysisFunctions.jar IPMax access_log.txt output3  
